@@ -88,5 +88,5 @@ Add `iPhone_X` in portrait mode, and FireFox 1200 x 800 as browsers for the Ultr
 * Try testing a different site of your choice. Look for ways to handle dynamic content and get stable tests.  
 
 ## Resources
-- [Applitools SDK Documentation](https://applitools.com/docs/api/eyes-sdk/index-gen/classindex-selenium-java.html)
+- [Applitools SDK Documentation](https://github.com/applitools/eyes.sdk.ruby)
 - [Applitools Best Practices](https://applitools.com/docs/topics/general-concepts/visual-test-best-practices.html)
