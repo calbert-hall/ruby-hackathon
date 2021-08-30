@@ -87,6 +87,8 @@ Add `iPhone_X` in portrait mode, and FireFox 1200 x 800 as browsers for the Ultr
 
 * Try testing a different site of your choice. Look for ways to handle dynamic content and get stable tests.  
 
+* If you need more challenges, ask your hackathon administrator!
+
 ## Resources
 - [Applitools SDK Documentation](https://github.com/applitools/eyes.sdk.ruby)
 - [Applitools Best Practices](https://applitools.com/docs/topics/general-concepts/visual-test-best-practices.html)
