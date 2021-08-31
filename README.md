@@ -84,6 +84,7 @@ Add `iPhone_X` in portrait mode, and FireFox 1200 x 800 as browsers for the Ultr
 
 * Find a selector and apply a [coded region](https://help.applitools.com/hc/en-us/articles/360007188211-Coded-Ignore-Regions) to it. 
 
+* Use the Applitools [PDF tester](https://applitools.com/tutorials/pdf-forms.html#analyze-your-test-results) to test some of your own PDF files. 
 
 * Try testing a different site of your choice. Look for ways to handle dynamic content and get stable tests.  
 
