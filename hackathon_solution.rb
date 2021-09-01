@@ -69,7 +69,7 @@ begin
   eyes.check('Air x Night', Applitools::Selenium::Target.window.fully)
 
   # Call Close on eyes to let the server know it should display the results
-  eyes.close
+  eyes.close(false)
 ensure
   # Close the browser
   driver.quit
@@ -78,6 +78,6 @@ ensure
 
   # we pass false to this method to suppress the exception that is thrown if we
   # find visual differences
-  results = visual_grid_runner.get_all_test_results
+  results = visual_grid_runner.get_all_test_results(false)
   puts results
 end

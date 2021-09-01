@@ -41,7 +41,7 @@ begin
   driver = eyes.open(driver: web_driver)
 
   # Navigate to the url we want to test
-  driver.get('https://demo.applitools.com/index.html')
+  driver.get('https://demo.applitools.com/index_v2.html')
 
   # check the login page with fluent api, see more info here
   # https://applitools.com/docs/topics/sdk/the-eyes-sdk-check-fluent-api.html
@@ -54,7 +54,7 @@ begin
   eyes.check('App Page', Applitools::Selenium::Target.window.fully)
 
   # Call Close on eyes to let the server know it should display the results
-  eyes.close
+  eyes.close(false)
 ensure
   # Close the browser
   driver.quit
@@ -63,7 +63,7 @@ ensure
 
   # we pass false to this method to suppress the exception that is thrown if we
   # find visual differences
-  results = visual_grid_runner.get_all_test_results
+  results = visual_grid_runner.get_all_test_results(false)
   puts results
 end
 
