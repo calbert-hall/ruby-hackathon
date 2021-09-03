@@ -41,7 +41,7 @@ begin
   driver = eyes.open(driver: web_driver)
 
   # Navigate to the url we want to test
-  driver.get('https://demo.applitools.com/index_v2.html')
+  driver.get('https://demo.applitools.com/index.html')
 
   # check the login page with fluent api, see more info here
   # https://applitools.com/docs/topics/sdk/the-eyes-sdk-check-fluent-api.html
