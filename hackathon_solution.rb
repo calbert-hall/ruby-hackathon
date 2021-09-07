@@ -1,4 +1,5 @@
 require 'eyes_selenium'
+require 'webdrivers'
 
 APPLIFASHIONV1 = "https://demo.applitools.com/gridHackathonV1.html"
 APPLIFASHIONVDEV = "https://demo.applitools.com/tlcHackathonDev.html"
